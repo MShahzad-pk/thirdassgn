@@ -25,7 +25,7 @@ jobs:
     - name: Installing Node.js
       uses: actions/setup-node@v2-Beta
       with: 
-        version: 12 
+        node-version: 12 
 
 
     - name: GitHub action for Yarn
